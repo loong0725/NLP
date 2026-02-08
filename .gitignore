@@ -1,2 +1,7 @@
 # Trained models
 model/
+models/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
