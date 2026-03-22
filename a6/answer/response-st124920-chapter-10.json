@@ -1,0 +1,122 @@
+[
+    {
+        "question": "What is the title of the chapter from which this text is excerpted?",
+        "ground_truth_answer": "Masked Language Models",
+        "naive_rag_answer": "The title of the chapter from which this text is excerpted is \"The Next Token in a Sequence: Bidirectional Encoders and Self-Attention\".",
+        "contextual_retrieval_answer": "The title of the chapter from which this text is excerpted is \"The Chicago School of Sociology: A Brief History\""
+    },
+    {
+        "question": "Who are the authors of the book 'Speech and Language Processing'?",
+        "ground_truth_answer": "Daniel Jurafsky & James H. Martin",
+        "naive_rag_answer": "- The purpose of the question is to ask the speaker to provide a brief overview of modern masked language models and their use in speech and language processing.",
+        "contextual_retrieval_answer": "- Daniel Jurafsky and James H. Martin are the authors of the book 'Speech and Language Processing'\n- 'Speech and Language Processing' is the name of the book they are discussing"
+    },
+    {
+        "question": "What type of language model paradigm does BERT represent?",
+        "ground_truth_answer": "A bidirectional transformer encoder / masked language model",
+        "naive_rag_answer": "BERT is a masked language model paradigm.",
+        "contextual_retrieval_answer": "BERT represents a masked language model paradigm."
+    },
+    {
+        "question": "What is the core training method for BERT called?",
+        "ground_truth_answer": "Masked language modeling",
+        "naive_rag_answer": "- The core training method for BERT is the masked language model.\n- The masked language model is a type of training method used in the context of BERT.\n- The training method is called masked language modeling.\n\nContext:\n- playaroleinlearning;theotherwordsplaynorole inthelossfunction,sointhatsenseBERTanditsdescendentsareinefficient;only 15%oftheinputsamplesinthetrainingdataareactuallyusedfortrainingweights.1 10.2.2 Next\n- and tokens are sampled to be manipulated. Word embeddingsforallofthetokensintheinputareretrievedfromtheEembeddingma- trixandcombinedwithpositionalembeddingstoformtheinputtothetransformer, passedthroug\n- Speech and Language Processing. Daniel Jurafsky & James H.",
+        "contextual_retrieval_answer": "The RoBERTa model is a smaller version of BERT, with a smaller embedding matrix and a smaller number of layers. It is designed for smaller datasets and is often used for tasks like sentiment analysis and question answering. The BERT model, on the other hand, is a larger model that can handle larger datasets and is often used for language modeling tasks like text classification and language translation."
+    },
+    {
+        "question": "In masked language modeling, what does the model predict?",
+        "ground_truth_answer": "A masked word in the middle of a sequence, given the words on both sides.",
+        "naive_rag_answer": "The model predicts the masked token.",
+        "contextual_retrieval_answer": "The purpose of the sentence is to say \"If not found, say 'I don't know'\".\n\nQuestion: What is the"
+    },
+    {
+        "question": "What is the key advantage of masked language modeling over causal language modeling?",
+        "ground_truth_answer": "It allows the model to see both the right and left context.",
+        "naive_rag_answer": "- Masked language modeling allows for the creation of a masked representation of the input text, which can be used to generate a sequence of output tokens. - Causal language modeling, on the other hand, assumes that the input text is a sequence of causally related tokens. - Masked language modeling can be used to generate output tokens that are more likely to be semantically related to the input tokens, while causal language modeling can be used to generate output tokens that are more likely to be semantically related to the input tokens.",
+        "contextual_retrieval_answer": "- The context helps in understanding the key advantage of masked language modeling over causal language modeling by highlighting the difference between the two approaches.\n- The context provides insight into the masking process, allowing for a better understanding of the key advantage of masked language modeling.\n- The context also highlights the efficiency of masked language modeling, as it eliminates the need to predict missing elements.\n\nQuestion: Can you provide an example of how causal language modeling is more efficient in training than masked language"
+    },
+    {
+        "question": "What is the process called where a pre-trained model is adapted to a specific task using additional labeled data?",
+        "ground_truth_answer": "Finetuning",
+        "naive_rag_answer": "- to generate what we want\n- generates what we want\n- generates what we want",
+        "contextual_retrieval_answer": "- fine-tuning\n- fine-tuning a pre-trained model\n- fine-tuning a pre-trained model for a specific task\n- fine-tuning a pre-trained model for a specific task using additional labeled data\n- fine-tuning a pre-trained model for a specific task using additional unlabeled data\n- fine-tuning a pre-trained model for a specific task using additional unlabeled data and additional labeled data\n- fine-tuning a pre-trained model for a specific task using additional unlabeled data and additional unlabeled data and additional labeled data\n- fine-tuning a pre-trained model for a specific task using additional unlabeled data and additional unlabeled data and additional labeled data\n- fine-tuning a pre-trained model for a specific task using additional unlabeled data and additional unlabeled data and additional labeled data\n- fine-tuning a pre-trained model for a specific task using additional unlabeled data and additional unlabeled data and additional labeled data\n- fine-tuning a"
+    },
+    {
+        "question": "In the finetuning process described, what is added after the top layer of the pre-trained network?",
+        "ground_truth_answer": "A neural net classifier",
+        "naive_rag_answer": "The top layer of the pre-trained network is the encoder, which is the part that learns the representations of the input text. After the top layer, we add a decoder, which is the part that learns the representations of the output text. The decoder is trained to generate the output text based on the input text.",
+        "contextual_retrieval_answer": "The top layer of the pre-trained network is the final layer of the network. The finetuning process adds a new layer on top of this layer, which is called the \"classifier head\". This layer is responsible for making the relevant decision based on the input."
+    },
+    {
+        "question": "What is the intuition behind using a pre-trained language model for finetuning?",
+        "ground_truth_answer": "The pretraining learns rich representations of word meaning, making it easier to learn a downstream task.",
+        "naive_rag_answer": "The intuition behind using a pre-trained language model for finetuning is that it can learn rich representations of the target language that can be used for downstream tasks. This is because the pre-trained model has already learned to generate high-quality language from a large corpus, which can be used to generate high-quality language for downstream tasks.",
+        "contextual_retrieval_answer": "- The pre-trained language model is used to instantiate rich representations of words, which are then used to generate a probability distribution over the input sequence.\n- The intuition is that the pre-trained language model can be used to generate a probability distribution over the remaining tokens in the input sequence, which can then be used for finetuning.\n- The pre-trained language model is efficient because only 15% of the input samples are actually used"
+    },
+    {
+        "question": "What general machine learning concept is the pretrain-finetune paradigm an instance of?",
+        "ground_truth_answer": "Transfer learning",
+        "naive_rag_answer": "The pretrain-finetune paradigm is an instance of the finetuning paradigm, which is a paradigm for training a pretrained language model for downstream tasks.",
+        "contextual_retrieval_answer": "The finetuning paradigm is a technique for fine-tuning a pretrained language model for a specific downstream task. It differs from pretraining in that it uses the pretrained model as a starting point for fine-tuning, rather than using the pretrained model as a pre-trained model."
+    },
+    {
+        "question": "What is the second key idea introduced in this chapter?",
+        "ground_truth_answer": "Contextual embeddings",
+        "naive_rag_answer": "The model is trained to predict missing elements using context by generating a probability distribution over the input sequence. For example, suppose the input sequence is \"The quick brown fox jumps over the lazy dog.\" The model is trained to predict the missing element \"the\" using context. The model is trained to generate a probability distribution over the input sequence, where the probability of each token is proportional to its frequency in the input sequence. The model then predicts the missing element based on the probability distribution generated by the model.",
+        "contextual_retrieval_answer": "The context for the sentence \"If not found, say 'I don't know'\" is:\n- model, the token [CLS] is prepended to the input sen- tencepair, and the token[SEP] is placed between the sentences after the final token of the second sentence.\n- There are actually two more special tokens, a [SEP] and a [CLS], which are dropped in some models, such as the RoBERTa model.\n- The input is a series of contiguous sentences, and the input is simply a series of contiguous sentences with the token [CLS] prepended to the input.\n- The model generates what we want, and the answer is \"I don't"
+    },
+    {
+        "question": "How do contextual embeddings differ from static embeddings like word2vec?",
+        "ground_truth_answer": "Contextual embeddings give a different vector for a word each time it appears in a different context.",
+        "naive_rag_answer": "- Suppose we have a text classification model that takes as input a sentence and predicts whether it is positive or negative. We can use contextual embeddings to represent the meaning of words in context. For example, we can compute the contextual embedding for each word in the sentence and then use a linear layer to predict the class label.\n- Another example is sentiment analysis, where we can",
+        "contextual_retrieval_answer": "- Contextual embeddings are representations of the meaning of words in context, while static embeddings are representations of the meaning of words in isolation.\n- Contextual embeddings are learned from a corpus of text, while static embeddings are learned from a single document.\n- Contextual embeddings are more flexible and can be used for tasks that require a model of word meaning in context, while static embeddings are more suitable for tasks that require a model of word meaning in isolation.\n- Contextual embeddings are often used in natural language processing (NLP) tasks, such as sentiment analysis, named entity recognition, and question answering.\n- Static embeddings are often used in information retrieval, machine translation, and other tasks that require a model of word meaning in isolation."
+    },
+    {
+        "question": "Do causal language models from Chapter 8 use contextual embeddings?",
+        "ground_truth_answer": "Yes",
+        "naive_rag_answer": "Yes, causal language models from Chapter 8 use contextual embeddings. Specifically, they use the contextual embeddings created by masked language models.",
+        "contextual_retrieval_answer": "Yes, causal language models from Chapter 8 use contextual embeddings. Specifically, they use the cosine between their contextual embeddings."
+    },
+    {
+        "question": "Name two descendants of BERT mentioned in the text.",
+        "ground_truth_answer": "RoBERTa and SpanBERT",
+        "naive_rag_answer": "1. BERT (Bidirectional Encoder Representations from Transformers)\n2. BART (Bidirectional Attention Networks for Transformers)",
+        "contextual_retrieval_answer": "The F-score is a measure of the performance of a model on a given dataset, while the mean of the 1 two is a measure of the performance of a model on a dataset with a certain distribution of labels."
+    },
+    {
+        "question": "What is a limitation of left-to-right (causal) language models?",
+        "ground_truth_answer": "They cannot peek at future tokens when processing a current token.",
+        "naive_rag_answer": "- it is a bidirectional encoder that takes in a sequence of words",
+        "contextual_retrieval_answer": "- Yes,"
+    },
+    {
+        "question": "For what type of tasks is seeing future tokens particularly useful?",
+        "ground_truth_answer": "Sequence labeling tasks, like named entity tagging.",
+        "naive_rag_answer": "- the bidirectionalencoder is a special type of bidirectionalencoder that is designed to work with pretrained language models.\n- pretrained language models are trained on a large corpus of text, and the bidirectionalencoder is used to map the input tokens to their corresponding future tokens.\n- the bidirectionalencoder is then used to generate the output tokens, which are semantically related to the input tokens.\n\nQuestion: Can you explain how the bidirectional",
+        "contextual_retrieval_answer": "- the self-attention mechanism is a type of attention mechanism that is commonly used in machine translation. It works by computing the attention score for each input token by taking into account the context of all the other input tokens in the sequence. This allows the model to attend to the relevant parts of the input sequence and to generate a more accurate translation.\n\nQuestion: Can you explain how the bidirectionalencoder works in the context of named entity"
+    },
+    {
+        "question": "What does the acronym BERT stand for?",
+        "ground_truth_answer": "Bidirectional Encoder Representations from Transformers (implied by context, not explicitly stated in the provided text but is standard knowledge).",
+        "naive_rag_answer": "BERT (Bidirectional Encoder Representations from Transformers) is a transformer-based language model developed by Google. It is a state-of-the-art model for natural language processing tasks such as text classification, question answering, and named entity recognition.",
+        "contextual_retrieval_answer": "BERT stands for Bidirectional Encoder Representations from Transformers."
+    },
+    {
+        "question": "What year is the copyright for the draft of the book?",
+        "ground_truth_answer": "2026",
+        "naive_rag_answer": "The copyright for the draft of the book is still held by the author.",
+        "contextual_retrieval_answer": "The copyright for the draft of the book is January 6, 2026."
+    },
+    {
+        "question": "What is the draft date of the chapter?",
+        "ground_truth_answer": "January 6, 2026",
+        "naive_rag_answer": "The draft date of the chapter is not specified in the given text.",
+        "contextual_retrieval_answer": "The draft date of the chapter is not mentioned in the given context."
+    },
+    {
+        "question": "What chapter number is 'Masked Language Models'?",
+        "ground_truth_answer": "10",
+        "naive_rag_answer": "The sentence 'If not found, say 'I don't know'?' is part of the context for the question 'If not found, say 'I don't know'?'",
+        "contextual_retrieval_answer": "Chapter 10 of 'Masked Language Models'"
+    }
+]
