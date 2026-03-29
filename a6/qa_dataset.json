@@ -1,82 +1,82 @@
 [
     {
-        "q": "What is the main topic of the chapter?",
-        "a": "The chapter discusses key NLP concepts."
+        "q": "What is the title of the chapter from which this text is excerpted?",
+        "a": "Masked Language Models"
     },
     {
-        "q": "What is the main topic of the chapter?",
-        "a": "The chapter discusses key NLP concepts."
+        "q": "Who are the authors of the book 'Speech and Language Processing'?",
+        "a": "Daniel Jurafsky & James H. Martin"
     },
     {
-        "q": "What is the main topic of the chapter?",
-        "a": "The chapter discusses key NLP concepts."
+        "q": "What type of language model paradigm does BERT represent?",
+        "a": "A bidirectional transformer encoder / masked language model"
     },
     {
-        "q": "What is the main topic of the chapter?",
-        "a": "The chapter discusses key NLP concepts."
+        "q": "What is the core training method for BERT called?",
+        "a": "Masked language modeling"
     },
     {
-        "q": "What is the main topic of the chapter?",
-        "a": "The chapter discusses key NLP concepts."
+        "q": "In masked language modeling, what does the model predict?",
+        "a": "A masked word in the middle of a sequence, given the words on both sides."
     },
     {
-        "q": "What is the main topic of the chapter?",
-        "a": "The chapter discusses key NLP concepts."
+        "q": "What is the key advantage of masked language modeling over causal language modeling?",
+        "a": "It allows the model to see both the right and left context."
     },
     {
-        "q": "What is the main topic of the chapter?",
-        "a": "The chapter discusses key NLP concepts."
+        "q": "What is the process called where a pre-trained model is adapted to a specific task using additional labeled data?",
+        "a": "Finetuning"
     },
     {
-        "q": "What is the main topic of the chapter?",
-        "a": "The chapter discusses key NLP concepts."
+        "q": "In the finetuning process described, what is added after the top layer of the pre-trained network?",
+        "a": "A neural net classifier"
     },
     {
-        "q": "What is the main topic of the chapter?",
-        "a": "The chapter discusses key NLP concepts."
+        "q": "What is the intuition behind using a pre-trained language model for finetuning?",
+        "a": "The pretraining learns rich representations of word meaning, making it easier to learn a downstream task."
     },
     {
-        "q": "What is the main topic of the chapter?",
-        "a": "The chapter discusses key NLP concepts."
+        "q": "What general machine learning concept is the pretrain-finetune paradigm an instance of?",
+        "a": "Transfer learning"
     },
     {
-        "q": "What is the main topic of the chapter?",
-        "a": "The chapter discusses key NLP concepts."
+        "q": "What is the second key idea introduced in this chapter?",
+        "a": "Contextual embeddings"
     },
     {
-        "q": "What is the main topic of the chapter?",
-        "a": "The chapter discusses key NLP concepts."
+        "q": "How do contextual embeddings differ from static embeddings like word2vec?",
+        "a": "Contextual embeddings give a different vector for a word each time it appears in a different context."
     },
     {
-        "q": "What is the main topic of the chapter?",
-        "a": "The chapter discusses key NLP concepts."
+        "q": "Do causal language models from Chapter 8 use contextual embeddings?",
+        "a": "Yes"
     },
     {
-        "q": "What is the main topic of the chapter?",
-        "a": "The chapter discusses key NLP concepts."
+        "q": "Name two descendants of BERT mentioned in the text.",
+        "a": "RoBERTa and SpanBERT"
     },
     {
-        "q": "What is the main topic of the chapter?",
-        "a": "The chapter discusses key NLP concepts."
+        "q": "What is a limitation of left-to-right (causal) language models?",
+        "a": "They cannot peek at future tokens when processing a current token."
     },
     {
-        "q": "What is the main topic of the chapter?",
-        "a": "The chapter discusses key NLP concepts."
+        "q": "For what type of tasks is seeing future tokens particularly useful?",
+        "a": "Sequence labeling tasks, like named entity tagging."
     },
     {
-        "q": "What is the main topic of the chapter?",
-        "a": "The chapter discusses key NLP concepts."
+        "q": "What does the acronym BERT stand for?",
+        "a": "Bidirectional Encoder Representations from Transformers (implied by context, not explicitly stated in the provided text but is standard knowledge)."
     },
     {
-        "q": "What is the main topic of the chapter?",
-        "a": "The chapter discusses key NLP concepts."
+        "q": "What year is the copyright for the draft of the book?",
+        "a": "2026"
     },
     {
-        "q": "What is the main topic of the chapter?",
-        "a": "The chapter discusses key NLP concepts."
+        "q": "What is the draft date of the chapter?",
+        "a": "January 6, 2026"
     },
     {
-        "q": "What is the main topic of the chapter?",
-        "a": "The chapter discusses key NLP concepts."
+        "q": "What chapter number is 'Masked Language Models'?",
+        "a": "10"
     }
 ]
